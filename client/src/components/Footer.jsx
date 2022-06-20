@@ -20,8 +20,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faReact, faCss3Alt, faJs } from '@fortawesome/free-brands-svg-icons'
 import { Styledcomponents } from '@icons-pack/react-simple-icons';
-import { SiVite,SiMaterialui,SiTailwindcss } from 'react-icons/si';
-
+import { SiSolidity,SiVite,SiMaterialui,SiTailwindcss,SiFirebase } from 'react-icons/si';
+import { FaHardHat } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -49,8 +49,9 @@ const Footer = () => {
             <SiTailwindcss style={{ marginRight: 2, marginLeft: 2 }} />
             <SiVite style={{ marginRight: 2, marginLeft: 2 }} />
             <FontAwesomeIcon icon={faReact} style={{ marginRight: 2, marginLeft: 2 }}/>
-            <FontAwesomeIcon icon={faCss3Alt} style={{ marginRight: 2, marginLeft: 2 }}/>
-            <FontAwesomeIcon icon={faJs} style={{ marginRight: 2, marginLeft: 2 }}/>
+            <SiSolidity style={{ marginRight: 2, marginLeft: 2 }}/>
+            <SiFirebase  style={{ marginRight: 2, marginLeft: 2 }}/>
+            <FaHardHat  style={{ marginRight: 2, marginLeft: 2 }}/>
             </span>
           </div>
         </section>
